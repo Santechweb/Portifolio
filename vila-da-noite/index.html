@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Define o padrão de acentuação para o site -->
+  <meta charset="UTF-8">
+
+  <!-- Faz o site se adaptar corretamente em celulares -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título que aparece na aba do navegador -->
+  <title>E.C Vila da Noite | Site Oficial</title>
+
+  <!-- Descrição do site para buscadores e compartilhamentos -->
+  <meta name="description" content="Site oficial do E.C Vila da Noite. Conheça a história, elenco, comissão técnica, loja oficial, torcida e contato do clube.">
+
+  <!-- Link do arquivo CSS separado -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Fonte do Google para deixar o visual mais esportivo/profissional -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Fonte principal do site -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ========================================================= -->
+  <!-- CABEÇALHO DO SITE                                         -->
+  <!-- Aqui fica o logo, nome do clube e o menu principal        -->
+  <!-- ========================================================= -->
+  <header class="topo">
+    <div class="container topo-conteudo">
+
+      <!-- Área do logo + nome do clube -->
+      <a href="index.html" class="marca">
+        <!-- Logo do clube -->
+        <!-- Coloque a imagem do escudo dentro da pasta imagens -->
+        <img src="imagens/logo.jpeg" alt="Escudo do E.C Vila da Noite" class="logo">
+
+        <!-- Nome e frase do clube -->
+        <div class="marca-texto">
+          <h1>E.C Vila da Noite</h1>
+          <p>Site Oficial</p>
+        </div>
+      </a>
+
+      <!-- Menu principal com links para páginas separadas -->
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="historia.html">História</a></li>
+          <li><a href="elenco.html">Elenco</a></li>
+          <li><a href="comissao.html">Comissão Técnica</a></li>
+          <li><a href="loja.html">Loja</a></li>
+          <li><a href="torcida.html">Torcida</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========================================================= -->
+  <!-- BANNER PRINCIPAL / HERO                                   -->
+  <!-- Parte principal de impacto logo ao entrar no site         -->
+  <!-- ========================================================= -->
+  <main>
+
+    <section class="hero">
+      <div class="container hero-conteudo">
+
+        <!-- Texto principal do banner -->
+        <div class="hero-texto">
+          <span class="destaque">DOMINE O JOGO</span>
+
+          <h2>Bem-vindo ao site oficial do <span>E.C Vila da Noite</span></h2>
+
+          <p>
+            Um clube com identidade forte, paixão pelo futebol e uma torcida que representa
+            raça, estilo e respeito dentro e fora de campo.
+          </p>
+
+          <!-- Botões principais do banner -->
+          <div class="hero-botoes">
+            <a href="elenco.html" class="botao botao-amarelo">Ver Elenco</a>
+            <a href="loja.html" class="botao botao-borda">Loja Oficial</a>
+          </div>
+        </div>
+
+        <!-- Imagem principal do banner -->
+        <div class="hero-imagem">
+          <!-- Você pode trocar depois por outra imagem se quiser -->
+          <img src="imagens/Uniforme.jogador.frente.png" alt="Uniforme oficial do E.C Vila da Noite">
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- SEÇÃO SOBRE O CLUBE                                       -->
+    <!-- Pequena apresentação para a home                          -->
+    <!-- ========================================================= -->
+    <section class="sobre">
+      <div class="container">
+        <div class="titulo-secao">
+          <h2>Sobre o Clube</h2>
+          <p>Tradição, identidade e paixão pelo futebol.</p>
+        </div>
+
+        <div class="sobre-conteudo">
+          <div class="sobre-texto">
+            <p>
+              O <strong>E.C Vila da Noite</strong> representa a força do futebol de comunidade,
+              a união entre atletas, torcida e diretoria, e o orgulho de vestir preto e amarelo.
+            </p>
+
+            <p>
+              Inspirado na grandeza e na história do futebol brasileiro, o clube carrega uma
+              identidade marcante e busca crescer dentro e fora dos gramados.
+            </p>
+
+            <a href="historia.html" class="botao botao-amarelo">Conhecer a História</a>
+          </div>
+
+          <div class="sobre-imagem">
+            <img src="imagens/logo.jpeg" alt="Escudo do Vila da Noite em destaque">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- SEÇÃO DE ACESSO RÁPIDO                                    -->
+    <!-- Cards levando o visitante para outras páginas             -->
+    <!-- ========================================================= -->
+    <section class="atalhos">
+      <div class="container">
+        <div class="titulo-secao">
+          <h2>Acesse as Áreas do Clube</h2>
+          <p>Navegue rapidamente pelas principais páginas do site.</p>
+        </div>
+
+        <div class="grid-cards">
+
+          <!-- Card Elenco -->
+          <article class="card">
+            <h3>Elenco</h3>
+            <p>
+              Veja os jogadores que representam o clube em campo.
+            </p>
+            <a href="elenco.html">Acessar página</a>
+          </article>
+
+          <!-- Card Comissão Técnica -->
+          <article class="card">
+            <h3>Comissão Técnica</h3>
+            <p>
+              Conheça os profissionais responsáveis pelo trabalho fora das quatro linhas.
+            </p>
+            <a href="comissao.html">Acessar página</a>
+          </article>
+
+          <!-- Card Loja -->
+          <article class="card">
+            <h3>Loja Oficial</h3>
+            <p>
+              Confira camisa, regata, uniforme e boné do E.C Vila da Noite.
+            </p>
+            <a href="loja.html">Acessar página</a>
+          </article>
+
+          <!-- Card Torcida -->
+          <article class="card">
+            <h3>Torcida</h3>
+            <p>
+              Espaço dedicado à torcida masculina e à torcida feminina do clube.
+            </p>
+            <a href="torcida.html">Acessar página</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- SEÇÃO DE PRODUTOS EM DESTAQUE                             -->
+    <!-- Mostra alguns itens da loja logo na página inicial        -->
+    <!-- ========================================================= -->
+    <section class="destaques-loja">
+      <div class="container">
+        <div class="titulo-secao">
+          <h2>Produtos em Destaque</h2>
+          <p>Vista as cores do clube e represente o Vila da Noite com estilo.</p>
+        </div>
+
+        <div class="produtos-grid">
+
+          <!-- Produto 1 - Regata -->
+          <article class="produto-card">
+            <img src="imagens/Uniforme.venda.regata.jpeg" alt="Camisa regata do E.C Vila da Noite">
+            <h3>Camisa Regata</h3>
+            <p>Modelo esportivo para jogo, treino ou lazer.</p>
+            <a href="loja.html" class="botao botao-amarelo">Ver na Loja</a>
+          </article>
+
+          <!-- Produto 2 - Camisa Torcedor -->
+          <article class="produto-card">
+            <img src="imagens/Uniforme.venda.torcedor.jpeg" alt="Camisa torcedor do E.C Vila da Noite">
+            <h3>Camisa Torcedor</h3>
+            <p>Modelo ideal para quem quer apoiar o clube com estilo.</p>
+            <a href="loja.html" class="botao botao-amarelo">Ver na Loja</a>
+          </article>
+
+          <!-- Produto 3 - Boné -->
+          <article class="produto-card">
+            <img src="imagens/Bone.jpeg" alt="Boné oficial do E.C Vila da Noite">
+            <h3>Boné Oficial</h3>
+            <p>Visual urbano e esportivo com a identidade do Vila da Noite.</p>
+            <a href="loja.html" class="botao botao-amarelo">Ver na Loja</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- SEÇÃO DE TORCIDA                                          -->
+    <!-- Área de destaque para torcida masculina e feminina        -->
+    <!-- ========================================================= -->
+    <section class="torcida-home">
+      <div class="container">
+        <div class="titulo-secao">
+          <h2>Nossa Torcida</h2>
+          <p>Quem faz o clube ser gigante também está nas arquibancadas.</p>
+        </div>
+
+        <div class="torcida-grid">
+
+          <!-- Bloco da torcida masculina -->
+          <article class="torcida-bloco">
+            <h3>Torcida Masculina</h3>
+            <p>
+              Espaço dedicado à força, presença e energia dos torcedores que acompanham
+              o clube em todos os momentos.
+            </p>
+            <a href="torcida.html" class="botao botao-borda">Ver mais</a>
+          </article>
+
+          <!-- Bloco da torcida feminina -->
+          <article class="torcida-bloco">
+            <h3>Torcida Feminina</h3>
+            <p>
+              Espaço dedicado às torcedoras que representam paixão, estilo e apoio
+              ao E.C Vila da Noite.
+            </p>
+            <a href="torcida.html" class="botao botao-borda">Ver mais</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- SEÇÃO DE CONTATO RÁPIDO                                   -->
+    <!-- Facilita o acesso ao WhatsApp e Instagram                 -->
+    <!-- ========================================================= -->
+    <section class="contato-rapido">
+      <div class="container contato-rapido-conteudo">
+        <div>
+          <h2>Entre em contato com o clube</h2>
+          <p>
+            Fale sobre uniformes, torcida, informações do clube ou novidades.
+          </p>
+        </div>
+
+        <div class="contato-botoes">
+          <!-- Link do WhatsApp com mensagem automática -->
+          <a
+            href="https://wa.me/5513996987349?text=Olá,%20quero%20mais%20informações%20sobre%20o%20E.C%20Vila%20da%20Noite."
+            target="_blank"
+            class="botao botao-amarelo"
+          >
+            WhatsApp
+          </a>
+
+          <!-- Link do Instagram -->
+          <a
+            href="https://www.instagram.com/vila_da_noite/"
+            target="_blank"
+            class="botao botao-borda"
+          >
+            Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================= -->
+  <!-- RODAPÉ                                                     -->
+  <!-- Informações finais do site                                -->
+  <!-- ========================================================= -->
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+
+      <div class="rodape-marca">
+        <img src="imagens/logo.jpeg" alt="Escudo do E.C Vila da Noite">
+        <div>
+          <h3>E.C Vila da Noite</h3>
+          <p>Preto, amarelo e tradição.</p>
+        </div>
+      </div>
+
+      <div class="rodape-links">
+        <a href="historia.html">História</a>
+        <a href="elenco.html">Elenco</a>
+        <a href="comissao.html">Comissão Técnica</a>
+        <a href="loja.html">Loja</a>
+        <a href="torcida.html">Torcida</a>
+        <a href="contato.html">Contato</a>
+      </div>
+
+      <div class="rodape-contato">
+        <p><strong>WhatsApp:</strong> 13 99698-7349</p>
+        <p><strong>Instagram:</strong> @vila_da_noite</p>
+      </div>
+    </div>
+  </footer>
+
+  <a
+  href="https://wa.me/5513996987349?text=Olá,%20vim%20pelo%20site%20do%20E.C%20Vila%20da%20Noite."
+  target="_blank"
+  class="whatsapp-fixo"
+  aria-label="Falar no WhatsApp"
+>
+  WhatsApp
+</a>
+
+  <!-- Link do arquivo JavaScript separado -->
+  <script src="js/script.js"></script>
+</body>
+</html>

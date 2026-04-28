@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Define acentuação correta -->
+  <meta charset="UTF-8">
+
+  <!-- Faz o site funcionar bem em celular -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título da página -->
+  <title>Elenco | E.C Vila da Noite</title>
+
+  <!-- Descrição da página -->
+  <meta name="description" content="Conheça o elenco do E.C Vila da Noite.">
+
+  <!-- Puxa o mesmo CSS do site -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Fonte do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===================================================== -->
+  <!-- TOPO DO SITE                                           -->
+  <!-- ===================================================== -->
+  <header class="topo">
+    <div class="container topo-conteudo">
+
+      <!-- Logo + nome do clube -->
+      <a href="index.html" class="marca">
+        <img src="imagens/logo.jpeg" alt="Escudo do E.C Vila da Noite" class="logo">
+
+        <div class="marca-texto">
+          <h1>E.C Vila da Noite</h1>
+          <p>Site Oficial</p>
+        </div>
+      </a>
+
+      <!-- Menu principal -->
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="historia.html">História</a></li>
+          <li><a href="elenco.html">Elenco</a></li>
+          <li><a href="comissao.html">Comissão Técnica</a></li>
+          <li><a href="loja.html">Loja</a></li>
+          <li><a href="torcida.html">Torcida</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================================================== -->
+    <!-- BANNER DA PÁGINA                                      -->
+    <!-- ===================================================== -->
+    <section class="hero">
+      <div class="container hero-conteudo">
+
+        <div class="hero-texto">
+          <span class="destaque">ELENCO OFICIAL</span>
+
+          <h2>Conheça os jogadores do <span>E.C Vila da Noite</span></h2>
+
+          <p>
+            Aqui está uma base inicial com 36 grandes nomes do futebol brasileiro.
+            Depois você poderá trocar os nomes, números, posições e fotos pelos atletas do clube.
+          </p>
+
+          <div class="hero-botoes">
+            <a href="comissao.html" class="botao botao-amarelo">Ver Comissão Técnica</a>
+            <a href="torcida.html" class="botao botao-borda">Ver Torcida</a>
+          </div>
+        </div>
+
+        <div class="hero-imagem">
+          <img src="imagens/Uniforme.jogador.frente.png" alt="Uniforme oficial do E.C Vila da Noite">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================== -->
+    <!-- LISTA DO ELENCO                                       -->
+    <!-- Cards profissionais com foto no hover                -->
+    <!-- ===================================================== -->
+    <section class="atalhos">
+      <div class="container">
+
+        <div class="titulo-secao">
+          <h2>Jogadores</h2>
+          <p>Passe o mouse sobre o card para ver a foto do jogador.</p>
+        </div>
+
+        <!--
+          IMPORTANTE:
+          As imagens abaixo são apenas exemplos de caminho.
+          Você precisará criar a pasta:
+          imagens/jogadores/
+
+          E salvar as fotos com esses nomes, por exemplo:
+          pele.jpg
+          neymar.jpg
+          ronaldinho.jpg
+          etc.
+        -->
+        <div class="grid-cards">
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/pele.jfif" alt="Pelé">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">10</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Pelé</h3>
+              <p>O Rei do Futebol e um dos maiores nomes da história.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/neymar.jfif" alt="Neymar">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">11</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Neymar</h3>
+              <p>Criatividade, drible e talento reconhecido mundialmente.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/ronaldinho.jfif" alt="Ronaldinho Gaúcho">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">10</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Ronaldinho Gaúcho</h3>
+              <p>Habilidade absurda e magia com a bola nos pés.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/ronaldo.jfif" alt="Ronaldo Fenômeno">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">9</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Ronaldo Fenômeno</h3>
+              <p>Explosão, técnica e faro de gol lendário.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/romario.jfif" alt="Romario"
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">11</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Romário</h3>
+              <p>Artilheiro decisivo com enorme presença de área.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/zico.jfif" alt="Zico">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">10</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Zico</h3>
+              <p>Classe, visão de jogo e história no futebol brasileiro.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/kaka.jfif" alt="Kaká">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">8</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Kaká</h3>
+              <p>Elegância, velocidade e grande capacidade de decisão.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/rivaldo.jfif" alt="Rivaldo">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">10</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Rivaldo</h3>
+              <p>Canhota poderosa e técnica marcante.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/garrincha.jfif" alt="Garrincha">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">7</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Garrincha</h3>
+              <p>Dribles inesquecíveis e genialidade em campo.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/socrates.jfif" alt="Sócrates">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">8</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Sócrates</h3>
+              <p>Inteligência, liderança e toque refinado.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/cafu.jfif" alt="Cafu">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">2</span>
+              <span class="jogador-posicao">LAT</span>
+              <h3>Cafu</h3>
+              <p>Força, velocidade e liderança na lateral.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/roberto.carlos.jfif" alt="Roberto Carlos">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">6</span>
+              <span class="jogador-posicao">LAT</span>
+              <h3>Roberto Carlos</h3>
+              <p>Potência física e chute fortíssimo.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/dani.alves.jfif" alt="Dani Alves">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">13</span>
+              <span class="jogador-posicao">LAT</span>
+              <h3>Dani Alves</h3>
+              <p>Participação ofensiva e trajetória vencedora.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/thiago.silva.jfif" alt="Thiago Silva">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">3</span>
+              <span class="jogador-posicao">ZAG</span>
+              <h3>Thiago Silva</h3>
+              <p>Leitura de jogo, técnica e segurança defensiva.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/casemiro.jfif" alt="Casemiro">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">5</span>
+              <span class="jogador-posicao">VOL</span>
+              <h3>Casemiro</h3>
+              <p>Marcação forte e liderança no meio-campo.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/vini.jr.jfif" alt="Vinícius Jr">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">7</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Vinícius Jr</h3>
+              <p>Velocidade, drible e agressividade ofensiva.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/rodrygo.jfif" alt="Rodrygo">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">11</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Rodrygo</h3>
+              <p>Atacante técnico e decisivo em jogos grandes.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/richarlyson.jfif" alt="Richarlison">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">9</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Richarlison</h3>
+              <p>Raça, pressão e presença ofensiva constante.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/adriano.imperador.jfif" alt="Adriano Imperador">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">9</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Adriano Imperador</h3>
+              <p>Força física impressionante e finalização poderosa.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/bebeto.jfif" alt="Bebeto">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">7</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Bebeto</h3>
+              <p>Técnica e grande história com a camisa do Brasil.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/dunga.jfif" alt="Dunga">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">8</span>
+              <span class="jogador-posicao">VOL</span>
+              <h3>Dunga</h3>
+              <p>Determinação, disciplina e liderança forte.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/falcao.jfif" alt="Falcão">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">5</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Falcão</h3>
+              <p>Visão de jogo refinada e muita qualidade técnica.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/tostao.jfif" alt="Tostão">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">9</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Tostão</h3>
+              <p>Inteligência tática e enorme talento ofensivo.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/jairzinho.jfif" alt="Jairzinho">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">7</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Jairzinho</h3>
+              <p>Velocidade e força para decidir partidas.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/rivelino.jfif" alt="Rivelino">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">10</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Rivelino</h3>
+              <p>Canhota histórica e personalidade marcante.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/marcelo.jfif" alt="Marcelo">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">12</span>
+              <span class="jogador-posicao">LAT</span>
+              <h3>Marcelo</h3>
+              <p>Lateral ofensivo com muita técnica e criatividade.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/ederson.jfif" alt="Ederson">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">1</span>
+              <span class="jogador-posicao">GOL</span>
+              <h3>Ederson</h3>
+              <p>Goleiro moderno com excelente saída de bola.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/alisson.jfif" alt="Alisson">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">1</span>
+              <span class="jogador-posicao">GOL</span>
+              <h3>Alisson</h3>
+              <p>Segurança, reflexo e regularidade no gol.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/paqueta.jfif" alt="Lucas Paquetá">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">8</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Lucas Paquetá</h3>
+              <p>Criatividade, técnica e versatilidade no meio.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/bruno.guimaraes.jfif" alt="Bruno Guimarães">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">5</span>
+              <span class="jogador-posicao">VOL</span>
+              <h3>Bruno Guimarães</h3>
+              <p>Intensidade, organização e qualidade no passe.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/hulk.jfif" alt="Hulk">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">7</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Hulk</h3>
+              <p>Força física, chute forte e imposição ofensiva.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/gabigol.jfif" alt="Gabigol">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">9</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Gabigol</h3>
+              <p>Atacante decisivo com faro de gol.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/pedro.jfif" alt="Pedro">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">9</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Pedro</h3>
+              <p>Centroavante técnico e forte dentro da área.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/endrick.jfif" alt="Endrick">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">9</span>
+              <span class="jogador-posicao">ATA</span>
+              <h3>Endrick</h3>
+              <p>Promessa brasileira com muita explosão e talento.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/oscar.jfif" alt="Oscar">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">10</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Oscar</h3>
+              <p>Meia criativo com visão e qualidade no passe.</p>
+            </div>
+          </article>
+
+          <article class="card card-jogador-profissional">
+            <div class="jogador-overlay">
+              <img src="imagens/jogadores/philippe.coutinho.jfif" alt="Philippe Coutinho">
+            </div>
+            <div class="jogador-conteudo">
+              <span class="jogador-numero">10</span>
+              <span class="jogador-posicao">MEI</span>
+              <h3>Philippe Coutinho</h3>
+              <p>Jogador técnico com chute colocado e criatividade.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================== -->
+    <!-- CHAMADA FINAL                                         -->
+    <!-- ===================================================== -->
+    <section class="contato-rapido">
+      <div class="container contato-rapido-conteudo">
+        <div>
+          <h2>Quer conhecer mais do clube?</h2>
+          <p>
+            Continue navegando pelo site e veja comissão técnica, torcida e produtos oficiais.
+          </p>
+        </div>
+
+        <div class="contato-botoes">
+          <a href="comissao.html" class="botao botao-amarelo">Comissão Técnica</a>
+          <a href="loja.html" class="botao botao-borda">Loja Oficial</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================================================== -->
+  <!-- RODAPÉ                                                 -->
+  <!-- ===================================================== -->
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+
+      <div class="rodape-marca">
+        <img src="imagens/logo.jpeg" alt="Escudo do E.C Vila da Noite">
+        <div>
+          <h3>E.C Vila da Noite</h3>
+          <p>Preto, amarelo e tradição.</p>
+        </div>
+      </div>
+
+      <div class="rodape-links">
+        <a href="index.html">Início</a>
+        <a href="historia.html">História</a>
+        <a href="comissao.html">Comissão Técnica</a>
+        <a href="loja.html">Loja</a>
+        <a href="torcida.html">Torcida</a>
+        <a href="contato.html">Contato</a>
+      </div>
+
+      <div class="rodape-contato">
+        <p><strong>WhatsApp:</strong> 13 99698-7349</p>
+        <p><strong>Instagram:</strong> @vila_da_noite</p>
+      </div>
+    </div>
+  </footer>
+
+  <a
+  href="https://wa.me/5513996987349?text=Olá,%20vim%20pelo%20site%20do%20E.C%20Vila%20da%20Noite."
+  target="_blank"
+  class="whatsapp-fixo"
+  aria-label="Falar no WhatsApp"
+>
+  WhatsApp
+</a>
+
+  <!-- JavaScript do site -->
+  <script src="js/script.js"></script>
+</body>
+</html>
